@@ -1,9 +1,7 @@
 # Transplant Deserts in Mexico
 ### Organ Donation Without Local Benefit, Forced Migration, and Catastrophic Out-of-Pocket Costs (2007–2024)
 
-**Damaris Rocha Castellanos · Karla Barrera Perales · Alfonso López Méndez · Edgar Méndez Dávila · Josué Roberto Lozano · Manuel Garza León**
-
-*Submitted to ACS Clinical Congress — Free Paper, Transplantation / Health Equity track*
+*Submitted to ACS Clinical Congress
 
 ---
 
@@ -119,9 +117,7 @@ python scripts/06_generate_combined_figure.py
 
 ---
 
-## Citation
 
-> Rocha Castellanos D, Barrera Perales K, López Méndez A, Méndez Dávila E, Lozano JR, Garza León M. *Transplant Deserts in Mexico: Organ Donation Without Local Benefit, Forced Migration, and Catastrophic Out-of-Pocket Costs (2007–2024).* ACS Clinical Congress 2026.
 
 ---
 
