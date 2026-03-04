@@ -1,0 +1,31 @@
+CORRECT PIPELINE FOR N=2,896 REPRODUCIBILITY
+=============================================
+Confirmed: 2026-03-03
+
+SOURCE A (base): 
+  /Users/dariorocha/Downloads/CENATRA Trasplantes y Donadores /Trasplantes/Trasplantes.csv
+  Encoding: utf-8-sig
+  Load: ALL years (2007–2020) — NO year cutoff
+  Liver filter: ORGANO contains 'HÍG' (case-insensitive)
+
+SOURCE B (quarterly):
+  /Users/dariorocha/Desktop/Liver Abstract Project /CENATRA_31 to CENATRA_50 CSVs
+  Load: ALL files (includes 2020 quarters: files 47-50)
+  Liver filter: organo contains 'híg' (case-insensitive)
+  Column names: already snake_case, no rename needed
+
+COMBINATION METHOD:
+  pd.concat([base_liver, qtrly_liver], ignore_index=True)
+  NOTE: 2020 records appear in BOTH sources (72 from base, 71 from quarterly)
+  This intentional overlap produces 2,947 pre-filter rows → 2,896 valid
+
+VALIDITY FILTER:
+  cod_res ∈ [1, 32]  AND  cod_tx ∈ [1, 32]
+  Excluded: -1 (VNPPE), 97, 99 (No Disponible), NaN
+
+RESULT: 2,947 pre-filter → 2,896 valid liver transplants ✓
+
+WRONG PIPELINES (do NOT use):
+  ✗ base ≤2019 + XLSX quarterly 2021+   → N=2,824
+  ✗ base ≤2019 + CSV quarterly 2020+    → N=2,824
+  ✗ base ≤2020 + CSV quarterly 2021+    → N=2,825

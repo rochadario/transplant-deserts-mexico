@@ -1,0 +1,4 @@
+scenario,trips,nights,median_oop_usd,median_oop_pct_wage,at_median_dist_computed_usd,at_median_dist_reported_usd,at_reported_pct_wage,pct_exceed_1x_wage,pct_exceed_2x_wage,pct_exceed_3x_wage
+Conservative,3,5,574.0,135.0,574.0,642.0,151.1,66.0,27.1,17.8
+Base,4,7,782.0,183.9,782.0,872.0,205.2,100.0,40.3,24.0
+Liberal,6,14,1342.0,315.7,1342.0,1478.0,347.7,100.0,100.0,55.8

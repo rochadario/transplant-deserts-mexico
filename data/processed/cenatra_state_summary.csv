@@ -1,0 +1,33 @@
+code,state,n_donations,n_tx_performed,n_residents_tx,n_displaced,export_rate_pct,net_exporter,high_displacement,double_burden,zero_center,is_hub
+1,Aguascalientes,41,0.0,14,14,100.0,True,True,True,True,False
+2,Baja California,36,10.0,60,52,86.66666666666667,True,True,True,False,False
+3,Baja California Sur,26,0.0,10,10,100.0,True,True,True,True,False
+4,Campeche,3,0.0,5,5,100.0,True,True,True,True,False
+5,Coahuila,42,1.0,83,82,98.79518072289156,True,True,True,False,False
+6,Colima,15,0.0,23,23,100.0,True,True,True,True,False
+7,Chiapas,8,0.0,25,25,100.0,True,True,True,True,False
+8,Chihuahua,62,18.0,45,33,73.33333333333333,True,True,True,False,False
+9,CDMX,614,1633.0,729,61,8.367626886145404,False,False,False,False,True
+10,Durango,24,0.0,29,29,100.0,True,True,True,True,False
+11,Guanajuato,184,16.0,86,75,87.20930232558139,True,True,True,False,False
+12,Guerrero,36,0.0,38,38,100.0,True,True,True,True,False
+13,Hidalgo,40,0.0,36,36,100.0,True,True,True,True,False
+14,Jalisco,308,476.0,314,54,17.197452229299362,False,False,False,False,True
+15,Estado de México,301,35.0,446,432,96.8609865470852,True,True,True,False,False
+16,Michoacán,80,0.0,65,65,100.0,True,True,True,True,False
+17,Morelos,32,2.0,49,48,97.95918367346938,True,True,True,False,False
+18,Nayarit,19,0.0,16,16,100.0,True,True,True,True,False
+19,Nuevo León,267,444.0,248,4,1.6129032258064515,False,False,False,False,True
+20,Oaxaca,7,0.0,25,25,100.0,True,True,True,True,False
+21,Puebla,102,2.0,66,64,96.96969696969697,True,True,True,False,False
+22,Querétaro,89,22.0,43,37,86.04651162790698,True,True,True,False,False
+23,Quintana Roo,6,0.0,27,27,100.0,True,True,True,True,False
+24,San Luis Potosí,138,67.0,33,23,69.6969696969697,True,False,False,False,False
+25,Sinaloa,62,47.0,52,40,76.92307692307693,True,True,True,False,False
+26,Sonora,129,39.0,33,17,51.515151515151516,True,False,False,False,False
+27,Tabasco,5,0.0,21,21,100.0,True,True,True,True,False
+28,Tamaulipas,22,1.0,63,62,98.4126984126984,True,True,True,False,False
+29,Tlaxcala,22,0.0,13,13,100.0,True,True,True,True,False
+30,Veracruz,33,2.0,73,71,97.26027397260275,True,True,True,False,False
+31,Yucatán,39,9.0,24,21,87.5,True,True,True,False,False
+32,Zacatecas,32,0.0,30,30,100.0,True,True,True,True,False
